@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MvcAuthorization.Models;
 
 namespace MvcAuthorization.Data
 {
@@ -12,5 +13,6 @@ namespace MvcAuthorization.Data
             : base(options)
         {
         }
+        public DbSet<MvcAuthorization.Models.MyItem> MyItem { get; set; }
     }
 }
