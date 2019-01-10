@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MvcAuthorization
+namespace MvcAuthorization.Controllers
 {
     [Authorize]
     public class SecureAreaController : Controller
