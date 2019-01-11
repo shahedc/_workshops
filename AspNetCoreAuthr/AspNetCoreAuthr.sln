@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAuthorization", "MvcAuth
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesAuthorization", "RazorPagesAuthorization\RazorPagesAuthorization.csproj", "{B61C3189-376F-4D3C-82B1-378041EB0911}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesSimpleAuthorization", "RazorPagesSimpleAuthorization\RazorPagesSimpleAuthorization.csproj", "{64F6EF64-4162-4542-91CF-2394906ED43F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,9 @@ Global
 		{B61C3189-376F-4D3C-82B1-378041EB0911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B61C3189-376F-4D3C-82B1-378041EB0911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B61C3189-376F-4D3C-82B1-378041EB0911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F6EF64-4162-4542-91CF-2394906ED43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F6EF64-4162-4542-91CF-2394906ED43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F6EF64-4162-4542-91CF-2394906ED43F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
